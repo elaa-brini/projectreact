@@ -1,0 +1,89 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  }
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .navbar {
+    width: 100%;
+    background: linear-gradient(135deg, #ff6f61 0%, #de6161 100%);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    margin: 2rem 0;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    width: 80%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    font-size: 1rem;
+  }
+  
+  .search-bar button {
+    width: 20%;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, #ff6f61 0%, #de6161 100%);
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .search-bar button:hover {
+    background: linear-gradient(135deg, #de6161 0%, #ff6f61 100%);
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .movie-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .movie-card h3 {
+    margin: 1rem 0 0.5rem;
+    color: #333;
+    font-size: 1.25rem;
+  }
+  
+  .movie-card p {
+    color: #666;
+    font-size: 1rem;
+  }
+ 
